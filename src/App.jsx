@@ -6,7 +6,7 @@ import "./App.css"; // Ensure you have styles
 
 function App() {
   return (
-    <Router>
+      <Router basename="/your-repo">
       <div>
         {/* Navbar */}
         <nav className="navbar">

@@ -21,6 +21,7 @@ function App() {
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Navigate to="/" />} />
           <Route path="/hire" element={<Hire />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
